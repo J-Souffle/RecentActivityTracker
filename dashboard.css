@@ -1,0 +1,126 @@
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --color-primary: hsl(235, 35%, 19%);
+    --color-secondary: hsl(358, 78%, 69%);
+    --color-font: hsla(0, 0%, 100%, 0.902);
+
+    --color-shadow: hsl(235, 36%, 35%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.div {
+    margin: 29px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 10px;
+
+    border-radius: 5px;
+}
+
+.todo-app{
+    width: 700%;
+    max-width: 1300px;
+    background: gray;
+    margin: 100px auto 20px;
+    padding: 40px 30px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.todo-app h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+}
+
+.row-1 p {
+    text-align: right;
+    font-size: 50px;
+}
+
+.row-2 p {
+    text-align: right;
+    font-size: 50px;
+}
+
+.container {
+    width: min(42.5rem, 100%);
+    margin-inline: auto;
+    margin: 20px 30px 25px 50px;
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 0px 50px 0 50px;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--color-primary);
+    font-size: 1.6rem;
+    font-family: 'Open sans', sans-serif;
+}
+
+p,
+i,
+h1 {
+    color: var(--color-font);
+}
+
+i {
+    font-size: 3.2rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+/* ==== CONTENT ==== */
+
+section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: white;
+    margin: 0px 500px 0px 50px;
+    padding: 10px;
+}
+
+
